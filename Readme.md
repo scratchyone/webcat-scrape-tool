@@ -1,4 +1,4 @@
-# UNH WebCat Scraper
+# UNH WebCat Scrape Tool
 
 This tool uses Playwright to scrape the "Look up courses to add" page on UNH WebCat. It's meant to gather data about class capacity. It expects the following environment variables:
 
