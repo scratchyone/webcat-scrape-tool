@@ -1,0 +1,16 @@
+{
+  "name": "automate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/browser-chromium": "^1.41.1",
+    "playwright": "^1.41.1",
+    "totp-generator": "^0.0.14"
+  }
+}
