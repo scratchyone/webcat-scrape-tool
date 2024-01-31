@@ -8,9 +8,7 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-const browser = await chromium.launch({
-  headless: false,
-});
+const browser = await chromium.launch({});
 const context = await browser.newContext(devices['Desktop Chrome']);
 const page = await context.newPage();
 await page.goto('https://webcat.unh.edu');
