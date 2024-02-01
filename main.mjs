@@ -10,6 +10,7 @@ function sleep(ms) {
 
 const browser = await chromium.launch({});
 const context = await browser.newContext(devices['Desktop Chrome']);
+context.setDefaultTimeout(60 * 1000);
 const page = await context.newPage();
 await page.goto('https://webcat.unh.edu');
 await page.locator('input[type=email]').fill(process.env.EMAIL);
