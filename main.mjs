@@ -2,7 +2,7 @@ import { chromium, devices } from 'playwright';
 import assert from 'node:assert';
 import totp from 'totp-generator';
 
-const TERM = '202350';
+const TERM = '202410';
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
